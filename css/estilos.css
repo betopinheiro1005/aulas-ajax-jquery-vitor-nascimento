@@ -1,0 +1,59 @@
+#container {
+    width: 800px;
+    height: 100%;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 0px auto;
+}
+p, div.lista {
+    font-family: Verdana;
+    font-size: 14px;
+    text-align: justify;
+}
+h1 {
+    font-family: Verdana;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: khaki;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: normal;
+    border: 1px solid #ccc;
+}
+a {
+    margin: 20px 0px 10px 5px;
+    padding: 10px;
+    font-family: Verdana;
+    font-size: 15px;
+    background-color: lightgray;
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    background-color: #ccc;
+    border: 1px solid black;
+}
+a:focus {
+    background-color: khaki;
+    border: 1px solid #ccc;
+}
+#loader {
+    margin: 30px 0px 0px 10px;
+    display: none;
+}
+img#tripe, #img_missao, #img_visao, #img_valores {
+    width: 340px;
+    height: 100px;
+    padding: 10px;
+    margin: 0px 20px 5px 0px;
+    float:left;
+    border: 1px solid #ccc;
+}
+#img_missao {
+    margin: 0px 40px 5px 0px;
+}
+img#tripe {
+    width: 350px;
+    height: 150px;
+}
